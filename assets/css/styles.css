@@ -1,0 +1,78 @@
+nav {
+    width: 100%;
+    border-bottom: 2px solid #17A2B8;
+    padding: 20px 0;
+}
+
+ul {
+    overflow: hidden;
+    list-style-type: none;
+    text-align: center;
+    background-color:#fff;
+    color: #17A2B8;
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+
+nav > ul > li > a {
+    display: inline-block;
+    margin: 10px 0px;
+    color: #17A2B8;
+    font-size: 18px;
+}
+
+nav > ul > li > a {
+    margin: 0px 15px;
+}
+
+nav > ul > li > a:hover {
+    text-decoration: none;
+    color: #17A2B8;
+}
+
+input[type=checkbox].css-checkbox {
+	position: absolute;
+	z-index: -1000;
+	left: -1000px;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	width: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+}
+
+input[type=checkbox].css-checkbox+label.css-label {
+	padding-left: 35px;
+	height: 30px;
+	display: inline-block;
+	line-height: 30px;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	font-size: 30px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+input[type=checkbox].css-checkbox:checked+label.css-label {
+	background-position: 0 -30px;
+}
+
+label.css-label {
+	background-image: url('../images/tools/checkbox.png');
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.ui-autocomplete-input {
+	text-align: left;
+}
