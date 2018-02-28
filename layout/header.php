@@ -4,9 +4,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
-        <meta name="keywords" content="">
-        <meta name="author" content="">
+        <meta name="description" content="add warriors and go to war with them">
+        <meta name="keywords" content="war, warriors, archer, axeman, swordsman, battle">
+        <meta name="author" content="Aviv Haruzi">
         <title><?php if (isset($title)) { echo $title; } ?></title>
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="assets/css/libs/jquery-ui/jquery-ui.min.css">
